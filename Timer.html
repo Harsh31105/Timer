@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Timer.css">
+    <script src="Timer.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="timer">
+            <div class="display">
+                <div class="display-screen" id="display-screen">
+
+                </div>
+            </div>
+            <div class="set-time">
+                <input type="number" id="sec" min="0" placeholder="Input in Seconds">
+            </div>
+            <div class="controls">
+                <button id="start" onclick="startTimer()">Start</button>
+                <button id="pause" onclick="pauseTimer()">Pause</button>
+                <button id="reset" onclick="window.location.reload()">Reset</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
